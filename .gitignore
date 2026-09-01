@@ -1,0 +1,110 @@
+# =========================
+# macOS
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# macOS folders
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+
+# =========================
+# Virtual Environments
+# =========================
+
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# =========================
+# Anaconda / Conda
+# =========================
+
+# Conda environment folders
+.conda/
+conda-env/
+envs/
+
+# =========================
+# Jupyter Notebook
+# =========================
+
+.ipynb_checkpoints/
+
+# Jupyter temporary files
+*.ipynb_checkpoints
+
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+
+# =========================
+# PyCharm
+# =========================
+
+.idea/
+
+# PyCharm
+*.iml
+
+
+# =========================
+# Secrets / Environment
+# =========================
+
+.env
+.env.*
+!.env.example
+
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
